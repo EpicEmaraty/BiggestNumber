@@ -7,13 +7,23 @@ int main()
 {
 int a1;
 int a2;
-  cout<<"Please enter a whole number:\n";
-  
+int biggest;
+
+cout<<"Please enter a whole number:\n";
+
   cin >> a1;
   cout<<"Please enter another whole number:\n";
   cin >> a2;
+if (a1>a2) {
 
-  cout<<"Of those two numbers, the biggest is: ";
+biggest = a1; }
+
+else {
+
+biggest = a2; }
+
+
+  cout<<"Of those two numbers, the biggest is: "<< biggest <<"" ;
   cout<<endl<<"Thank you for playing.\n";
 
   return 0;
